@@ -6,37 +6,37 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Rodrigo L. P. Raupp
+title: Cientista da Computação / Cientista de Dados
+email: rodrigolaforet@live.com
+# website: link
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username:
+github_username:  rodrigoraupp
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+# instagram_username:
+linkedin_username: rodrigoraupp
+# xing_username:
+# pinterest_username:
+# youtube_username:
+# googleplus_username:
+orcid_username: 0009-0000-8497-6681
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+- title: Medium
+  icon: fab fa-solid fa-medium
+  url: https://medium.com/@rodrigolaforet
+- title: Currículo Lattes
+  icon: fas fa-graduation-cap
+  url: http://lattes.cnpq.br/3001137938093184
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -45,76 +45,245 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
+about_title: Sobre Mim
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Olá, meu nome é Rodrigo e sou bacharel em Ciência da Computação. 
+
+  Meu forte interesse por Estatística foi o motor que me direcionou para a Ciência de Dados. Atualmente, desenvolvo projetos práticos com o objetivo de expandir meu repertório técnico e exercitar o senso crítico na manipulação e interpretação de dados em diferentes domínios.
+
+  Além da modelagem estatística, busco ter uma visão ponta a ponta dos projetos. Por isso, também dedico meus estudos e práticas às áreas de Análise e Engenharia de Dados, desenvolvendo as habilidades necessárias para construir pipelines modernos, robustos e multifacetados.
 
 content:
-  - title: Projects # Title for the section
+
+  - title: Educação # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Universidade Federal de Pelotas
+        caption: 2026
+        sub_title: Bacharel em Ciência da Computação
+        # quote: >
+        #  This is a quote.
+        description: | # this will include new lines to allow paragraphs
+          Durante a minha graduação em Ciência da Computação, direcionei meu foco para as áreas de Estatística e Aprendizado de Máquina. Na área estatística, aprofundei meus conhecimentos em estatística descritiva, probabilidade e estatística inferencial. 
+
+          Coloquei essa base em prática participando do [Grupo de Assessoramento Técnico em Estatística](https://wp.ufpel.edu.br/clause/assessoramento-tecnico-em-estatistica-aplicada/). Lá, sob a orientação das professoras, prestei consultoria direta a projetos de pesquisadores externos. Essa experiência me permitiu aprender na prática sobre Pesquisa Experimental e consolidar o uso de ferramentas voltadas para análise de dados, como <mark>SAS</mark> e <mark>R</mark>.
+
+          Além disso, expandi meu contato com a Inteligência Artificial por meio do Hub2IA, onde me engajei ativamente em atividades e projetos práticos focados em Aprendizado de Máquina utilizando <mark>Python</mark>.
+
+      - layout: left
+        title: Instituto Federal Sul-rio-grandense
+        caption: 2016
+        sub_title: Técnico em Eletrônica
+        # quote: >
+        #  This is a quote.
+        description: | # this will include new lines to allow paragraphs
+          Ao longo do curso técnico em eletrônica participei do Laboratório 14, grupo de desenvolvimento de projetos e liga robótica. No laboratório, desenvolvi um robô seguidor de linha e sensor de obstáculos, chamado RS Atom, construído com microcontrolador e gravado em linguagem <mark>C</mark>. Com o projeto, conquistei prêmios em competições de robótica.
+
+  - title: Habilidades Técnicas
+    layout: text
+    content: |
+      **Análise e Ciência de Dados:**
+      - <mark>Python</mark> <mark>pandas</mark> <mark>scikit-learn</mark> <mark>Matplotlib</mark> <mark>Seaborn</mark> <mark>DuckDB</mark> 
+      - <mark>SAS</mark>
+
+      **Estatística Aplicada:**
+      - <mark>Testes de Hipótese</mark> <mark>Regressão</mark> <mark>ANOVA</mark> <mark>Planejamento de Experimentos</mark>
+
+      **Bancos de Dados:**
+      - *Relacionais:* <mark>SQL</mark> <mark>PostgreSQL</mark> <mark>MySQL</mark> <mark>DuckDB</mark>
+      - *NoSQL:* <mark>MongoDB</mark> <mark>Couchbase</mark>
+
+      **Ferramentas e Ambiente:**
+      - <mark>Linux</mark> <mark>Git & GitHub</mark> <mark>Docker</mark> <mark>Conda</mark> <mark>Jupyter</mark>
+
+      **Idiomas:**
+      - Português (Nativo)
+      - Inglês (Avançado)
+
+
+  - title: Projetos
+    layout: list
+    content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Análise de Dados do Sistema de Internações Hospitalares no Estado do Rio Grande do Sul
+        # link: github.com/
+        # # link_text: Project Website
+        # additional_links:
+        #   - title:  github.com/
+        #     icon: fab fa-github
+        #     url: github.com/
+          # - title:  Github page for project
+          #   icon: fab fa-github
+          #   url: Link to project
+        # quote: >
+        #  This is a quote.
+        description: | # this will include new lines to allow paragraphs
+          - Estruturação de <i>pipeline</i> de engenharia de dados no formato <mark>ETL</mark> focado em informações públicas de internações hospitalares.
+          - Grande volume de dados processados no formato <mark>Parquet</mark> com a utilização de <mark>SQL</mark> através da biblioteca <mark>DuckDB</mark>.
+          - Projeto em construção.
+
+
+      - layout: top-middle
+        title: Análise Quantitativa de Dados de Rastreamento Ocular na Interação Humano-Computador
+        link: https://github.com/rodrigoraupp/hci_eyetracking_analysis
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            url: https://github.com/rodrigoraupp/hci_eyetracking_analysis
+        # quote: >
+        #  This is a quote.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          - Pesquisa sobre atenção visual em diferentes interfaces de usuário (UI) com objetivo de entender a varredura ocular.
+          - Processamento analítico de grande volume de dados com armazenamento facilitado pelo uso de <mark>Parquet</mark>. Utilização das principais bibliotecas da linguagem <mark>Python</mark> para exploração e análise de dados, como também para inferência estatística.
+          - Projeto utiliza dados públicos de rastreamento ocular denominado <i>UEyes</i> para fins de Trabalho de Conclusão de Curso.
 
-  - title: Experience # Title for the section
+  - title: Experiência # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: AVMB Consultoria e Assessoria em Informática LTDA
+        link: https://avmb.com.br/
+        sub_title: Estagiário - Setor de BI e Desenvolvimento
+        caption: Março 2021 - Março 2023
+        # quote: >
+        #   This is a quote.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            Atuação de destaque no suporte ao setor fiscal (ISSQN) da Secretaria da Fazenda, sendo frequentemente reconhecido pelo profundo conhecimento da legislação municipal aplicada ao software. Responsável pelo levantamento de requisitos e desenvolvimento de relatórios analíticos complexos utilizando <mark>SQL</mark> no contexto do <mark>IBM DB2</mark>.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Correa e Pinheiro Internet LTDA
+        link: https://www.suaradionanet.net/
+        sub_title: Estagiário - Suporte Técnico
+        caption: Novembro 2017 - Março 2028
+        # quote: >
+        #   This is a quote.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+            Estágio curricular para a conclusão do curso Técnico em Eletrônica, focado na resolução de problemas e atendimento direto ao cliente. 
+            Atuei no suporte técnico para emissoras de rádio, diagnosticando e solucionando falhas em plataformas web e infraestrutura de transmissão. Fui responsável por garantir a estabilidade operacional de **softwares de automação de programação** e configurar **ferramentas de transmissão ao vivo (streaming)**, assegurando a continuidade da programação das rádios parceiras.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-  - title: A Little More About Me
+  - title: Um Pouco Mais Sobre Mim
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      <div class="meu-carrossel">
+  
+      <!-- slide 1 -->
+      <div class="meu-slide">
+        <img src="images/defesa_tcc.JPG" alt="Apresentação do TCC">
+        <div class="legenda">Apresentação dos resultados da pesquisa de TCC para a banca avaliadora na Universidade Federal de Pelotas.</div>
+      </div>
+      
+      <!-- slide 2 -->
+      <div class="meu-slide">
+        <img src="images/rbras_seagro_2025.JPG" alt="RBras SEAGRO 2025">
+        <div class="legenda">Apresentação de trabalho no evento RBras SEAGRO 2025 em Vitória, Espírito Santo.</div>
+      </div>
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      <!-- slide 3 -->
+      <div class="meu-slide">
+        <img src="images/desafio_resistencia.JPG" alt="desafio resistência">
+        <div class="legenda">Participação no desafio dos 5km no Clube Brilhante em Pelotas, Rio Grande do Sul.</div>
+      </div>
+
+      <!-- botões de navegação -->
+      <button class="botao-prev" onclick="mudarSlide(-1)">&#10094;</button>
+      <button class="botao-next" onclick="mudarSlide(1)">&#10095;</button>
+      
+      </div>
+
+      <!-- estilo visual -->
+      <style>
+        .meu-carrossel {
+          position: relative;
+          max-width: 100%;
+          margin: 20px auto;
+          border-radius: 8px;
+          overflow: hidden;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        .meu-slide {
+          display: none;
+          position: relative;
+        }
+        .meu-slide img {
+          width: 100%;
+          display: block;
+        }
+        /* estilo da legenda preta transparente */
+        .legenda {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          background: rgba(0, 0, 0, 0.75);
+          color: #ffffff;
+          padding: 12px 15px;
+          text-align: center;
+          font-size: 15px;
+          box-sizing: border-box;
+        }
+        /* estilo dos botões */
+        .botao-prev, .botao-next {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background: rgba(0,0,0,0.5);
+          color: white;
+          border: none;
+          padding: 12px 16px;
+          cursor: pointer;
+          font-size: 18px;
+          border-radius: 4px;
+          transition: 0.3s;
+        }
+        .botao-prev:hover, .botao-next:hover { background: rgba(0,0,0,0.9); }
+        .botao-prev { left: 10px; }
+        .botao-next { right: 10px; }
+        
+        /* animação de transição suave */
+        .animacao-fade { animation: fade 0.6s ease-in-out; }
+        @keyframes fade { from { opacity: 0.5; } to { opacity: 1; } }
+      </style>
+
+      <!-- lógica de Funcionamento .js -->
+      <script>
+        let slideIndex = 1;
+        
+        // delay
+        document.addEventListener("DOMContentLoaded", function() {
+          mostrarSlides(slideIndex);
+        });
+
+        function mudarSlide(n) {
+          mostrarSlides(slideIndex += n);
+        }
+
+        function mostrarSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("meu-slide");
+          if (slides.length === 0) return;
+          
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          
+          // esconde e remove a animação
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            slides[i].classList.remove("animacao-fade");
+          }
+          
+          // mostra apenas a foto atual e aplica a animação
+          slides[slideIndex - 1].style.display = "block";
+          slides[slideIndex - 1].classList.add("animacao-fade");
+        }
+      </script>
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: Feito com ❤️ usando Jekyll e hospedado no GitHub.
 
 # Build settings
 remote_theme: sproogen/resume-theme
