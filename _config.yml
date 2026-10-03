@@ -30,6 +30,7 @@ linkedin_username: rodrigoraupp
 orcid_username: 0009-0000-8497-6681
 
 # Additional icon links
+# Ícones disponíveis em https://fontawesome.com/icons
 additional_links:
 - title: Medium
   icon: fab fa-solid fa-medium
@@ -158,7 +159,7 @@ content:
         title: Correa e Pinheiro Internet LTDA
         link: https://www.suaradionanet.net/
         sub_title: Estagiário - Suporte Técnico
-        caption: Novembro 2017 - Março 2028
+        caption: Novembro 2017 - Março 2018
         # quote: >
         #   This is a quote.
         description: | # this will include new lines to allow paragraphs
@@ -283,7 +284,7 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: Feito com ❤️ usando Jekyll e hospedado no GitHub.
+references_title: 'Feito com <i class="fas fa-heart"></i> usando Jekyll e hospedado no GitHub.'
 
 # Build settings
 remote_theme: sproogen/resume-theme
